@@ -31,8 +31,8 @@ set_target_properties(networkextension PROPERTIES
     XCODE_ATTRIBUTE_CODE_SIGN_IDENTITY[variant=Debug] "Apple Development"
 
     XCODE_ATTRIBUTE_CODE_SIGN_STYLE Manual
-    XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER "match AppStore org.amnezia.AmneziaVPN.network-extension"
-    XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER[variant=Debug] "match Development org.amnezia.AmneziaVPN.network-extension"
+    XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER "match InHouse ru.breffi.AmneziaVPN.network-extension"
+    XCODE_ATTRIBUTE_PROVISIONING_PROFILE_SPECIFIER[variant=Debug] "match InHouse ru.breffi.AmneziaVPN.network-extension"
 )
 
 set_target_properties(networkextension PROPERTIES
@@ -44,7 +44,7 @@ set_target_properties(networkextension PROPERTIES
 )
 
 set_target_properties("networkextension" PROPERTIES
-    XCODE_ATTRIBUTE_DEVELOPMENT_TEAM "X7UJ388FXK"
+    XCODE_ATTRIBUTE_DEVELOPMENT_TEAM "ALBS6P5GL6"
 )
 
 find_library(FW_ASSETS_LIBRARY AssetsLibrary)

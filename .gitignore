@@ -12,6 +12,7 @@ winbuild*.bat
 
 
 # Qt-es
+Qt/
 /.qmake.cache
 /.qmake.stash
 *.pro.user
